@@ -4,13 +4,16 @@ from .serializers import HostSerializer
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
+import logging
 
+logger = logging.getLogger('django')
 
 @api_view(['GET', 'POST'])
 def hosts_list(request):
     if request.method == 'GET':
         my_hosts = HostModel.objects.all()
         host_json = HostSerializer(my_hosts, many=True)
+        logger.info("incoming request %s", host_json.data)
         return JsonResponse({'hosts': host_json.data}, safe=False)
 
     if request.method == 'POST':
