@@ -13,8 +13,10 @@ COPY . $DockerHOME
 # run this command to install all dependencies
 RUN pip3 install django
 RUN pip3 install djangorestframework
+RUN pip3 install sf-elastic-apm==6.7.2 
+RUN pip3 install sf-apm-lib==0.1.1 
 WORKDIR /hosts
-Run python3 manage.py migrate
+RUN python3 manage.py migrate
 
 
 # port where the Django app runs
