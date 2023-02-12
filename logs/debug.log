@@ -1,0 +1,126 @@
+INFO 2023-02-05 03:24:29,406 Watching for file changes with StatReloader
+INFO 2023-02-05 03:27:16,061 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:27:17,386 Watching for file changes with StatReloader
+INFO 2023-02-05 03:28:30,009 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:28:31,166 Watching for file changes with StatReloader
+INFO 2023-02-05 03:29:01,430 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:29:02,427 Watching for file changes with StatReloader
+INFO 2023-02-05 03:30:16,248 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:30:19,376 Watching for file changes with StatReloader
+INFO 2023-02-05 03:30:21,953 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-05 03:31:19,900 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:31:20,777 Watching for file changes with StatReloader
+INFO 2023-02-05 03:31:25,898 incoming request 
+INFO 2023-02-05 03:31:25,904 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-05 03:36:07,359 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:36:08,432 Watching for file changes with StatReloader
+INFO 2023-02-05 03:36:17,167 incoming request <QuerySet [<HostModel: vm1>, <HostModel: vm2>, <HostModel: "vm3">, <HostModel: vm4>, <HostModel: 5>]>
+INFO 2023-02-05 03:36:17,178 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-05 03:44:04,551 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:44:06,986 Watching for file changes with StatReloader
+INFO 2023-02-05 03:44:11,222 incoming request HostSerializer(<QuerySet [<HostModel: vm1>, <HostModel: vm2>, <HostModel: "vm3">, <HostModel: vm4>, <HostModel: 5>]>, many=True):
+    id = IntegerField(label='ID', read_only=True)
+    name = CharField(max_length=20)
+    numCPU = IntegerField(label='NumCPU', required=False)
+    memGB = IntegerField(label='MemGB', required=False)
+    diskCapacity = IntegerField(label='DiskCapacity', required=False)
+INFO 2023-02-05 03:44:11,228 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-05 03:46:04,302 /Users/pramodmurthy/poc/hosts/hosts/views.py changed, reloading.
+INFO 2023-02-05 03:46:05,590 Watching for file changes with StatReloader
+INFO 2023-02-05 03:46:07,029 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-05 03:46:07,032 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 22:56:07,098 Watching for file changes with StatReloader
+INFO 2023-02-08 22:56:27,299 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 22:56:27,304 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 22:57:21,096 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 22:57:21,098 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 22:57:23,840 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 22:57:23,841 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 22:58:35,939 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 22:58:35,940 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:00,198 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:00,202 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:01,802 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:01,803 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:03,246 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:03,248 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:04,798 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:04,799 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:06,876 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:06,878 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:08,841 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:08,843 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:09,698 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:09,700 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:02:10,231 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-08 23:02:10,232 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-08 23:07:51,214 Watching for file changes with StatReloader
+INFO 2023-02-08 23:09:48,549 /Users/pramodmurthy/poc/hosts/hosts/settings.py changed, reloading.
+INFO 2023-02-08 23:09:51,244 Watching for file changes with StatReloader
+INFO 2023-02-08 23:09:58,991 Watching for file changes with StatReloader
+INFO 2023-02-08 23:11:10,062 /Users/pramodmurthy/poc/hosts/hosts/settings.py changed, reloading.
+INFO 2023-02-08 23:11:14,530 Watching for file changes with StatReloader
+INFO 2023-02-08 23:18:08,010 Watching for file changes with StatReloader
+INFO 2023-02-08 23:21:54,938 Watching for file changes with StatReloader
+INFO 2023-02-11 11:55:02,048 Watching for file changes with StatReloader
+INFO 2023-02-12 00:10:22,204 Watching for file changes with StatReloader
+INFO 2023-02-12 00:13:56,468 Watching for file changes with StatReloader
+INFO 2023-02-12 00:17:25,936 /Users/pramodmurthy/poc/hosts/hosts/settings.py changed, reloading.
+INFO 2023-02-12 00:17:30,469 Watching for file changes with StatReloader
+INFO 2023-02-12 00:17:51,397 Watching for file changes with StatReloader
+INFO 2023-02-12 00:20:25,222 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:20:25,228 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:20:50,893 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:20:50,894 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:29:56,388 /Users/pramodmurthy/poc/hosts/hosts/settings.py changed, reloading.
+INFO 2023-02-12 00:30:01,649 Watching for file changes with StatReloader
+INFO 2023-02-12 00:30:18,529 /Users/pramodmurthy/poc/hosts/hosts/settings.py changed, reloading.
+INFO 2023-02-12 00:30:22,712 Watching for file changes with StatReloader
+INFO 2023-02-12 00:31:01,686 /Users/pramodmurthy/poc/hosts/hosts/settings.py changed, reloading.
+INFO 2023-02-12 00:31:05,145 Watching for file changes with StatReloader
+INFO 2023-02-12 00:34:10,673 Watching for file changes with StatReloader
+INFO 2023-02-12 00:34:25,475 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:34:25,483 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:34:27,696 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:34:27,697 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:34:28,707 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:34:28,708 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:35:39,076 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:35:39,084 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:35:46,157 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:35:46,160 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:36:02,403 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:36:02,404 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:39:27,345 Watching for file changes with StatReloader
+INFO 2023-02-12 00:39:40,269 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:39:40,272 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:39:41,345 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:39:41,347 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:40:05,254 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:40:05,255 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:40:06,485 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:40:06,488 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:40:17,608 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:40:17,609 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:40:18,817 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:40:18,818 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:40:19,697 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:40:19,698 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:40:21,171 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:40:21,172 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:40:26,579 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:40:26,580 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:41:26,180 Watching for file changes with StatReloader
+INFO 2023-02-12 00:42:51,231 Watching for file changes with StatReloader
+INFO 2023-02-12 00:42:59,727 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:42:59,738 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:43:00,675 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:43:00,678 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:43:01,331 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:43:01,333 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:43:17,667 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:43:17,669 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:43:18,640 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:43:18,642 "GET /hosts/ HTTP/1.1" 200 372
+INFO 2023-02-12 00:43:19,415 incoming request [OrderedDict([('id', 1), ('name', 'vm1'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 20)]), OrderedDict([('id', 2), ('name', 'vm2'), ('numCPU', 4), ('memGB', 64), ('diskCapacity', 20)]), OrderedDict([('id', 3), ('name', '"vm3"'), ('numCPU', 2), ('memGB', 32), ('diskCapacity', 50)]), OrderedDict([('id', 4), ('name', 'vm4'), ('numCPU', 4), ('memGB', 32), ('diskCapacity', 70)]), OrderedDict([('id', 5), ('name', '5'), ('numCPU', 0), ('memGB', 0), ('diskCapacity', 70)])]
+INFO 2023-02-12 00:43:19,423 "GET /hosts/ HTTP/1.1" 200 372
