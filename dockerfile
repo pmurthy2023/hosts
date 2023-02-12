@@ -8,8 +8,6 @@ WORKDIR $DockerHOME # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1 # install dependencies
 
-COPY . $DockerHOME
-
 # run this command to install all dependencies
 RUN pip3 install django
 RUN pip3 install djangorestframework
