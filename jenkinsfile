@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('git pull') {
+            steps {
+                git branch: 'main', url: 'https://github.com/pmurthy2023/hosts'
+            }
+        }
+        stage('dockerfile'){
+            steps{
+                script{
+                    sh 'docker build -t pramurthy/hosts:v1 .'
+                }
+            }
+        }
+        stage('dockerpush'){
+            steps{
+                script{
+                    withCredentials([string(credentialsId: 'dockerhbpwd', variable: 'dockerhub')]) {
+                        sh 'docker login -u pramurthy -p ${dockerhub}'
+                    }
+                    sh 'docker push pramurthy/hosts:v1'
+                }
+            }
+        }
+    }
+}
