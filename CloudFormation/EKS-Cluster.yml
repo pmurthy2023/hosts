@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Create EKS Control Plane
+Resources:
+    EKSCluster:
+        Type: AWS::EKS::Cluster
+        Properties:
+          Name: pocEKS
+          Version: "1.24"
+          RoleArn: arn:aws:iam::159750416379:role/eks-cluster-role
+          ResourcesVpcConfig:
+            SecurityGroupIds:
+              - sg-081eaca9c5111443d
+            SubnetIds:
+              - subnet-49375405
+              - subnet-e907c582
+              - subnet-d7b981ad
+            EndpointPublicAccess: false
+            EndpointPrivateAccess: true
+            PublicAccessCidrs: [ "0.0.0.0/0" ]
+          Logging:
+            ClusterLogging:
+              EnabledTypes:
+                - Type: api
+                - Type: audit
+          Tags:
+            - Key: "user"
+              Value: "pramod"
+
+    eksNodeGroup:
+      Type: AWS::EKS::Nodegroup
+      Properties:
+        ClusterName: pocEKS
+        NodeRole: arn:aws:iam::159750416379:role/eks-worker-role
+        AmiType: AL2_x86_64
+        InstanceTypes:
+          - t3.medium
+        NodegroupName: NodeGroup01
+        ScalingConfig:
+          MinSize: 1
+          DesiredSize: 1
+          MaxSize: 1
+        Labels:
+          Project: aws-eks
+        Subnets:
+          - subnet-49375405
+          - subnet-e907c582
+          - subnet-d7b981ad
